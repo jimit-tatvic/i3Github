@@ -1,0 +1,31 @@
+* {
+    background: #1e1e2eee;
+    background-alt: #313244;
+    foreground: #cdd6f4;
+    selected: #89b4fa;
+    background-colour: var(background);
+    foreground-colour: var(foreground);
+}
+window {
+    width: 600px;
+    border-radius: 10px;
+}
+mainbox {
+    padding: 20px;
+}
+inputbar {
+    children: [ "prompt", "entry" ];
+}
+listview {
+    lines: 8;
+    columns: 1;
+}
+element {
+    padding: 8px;
+    border-radius: 8px;
+    text-color: @foreground;
+}
+element selected.normal {
+    background-color: var(selected);
+    text-color: #1e1e2e;
+}

@@ -1,0 +1,11 @@
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+image/jpeg=org.gnome.eog.desktop
+application/x-extension-burp=install4j_dlkvr2-BurpSuiteCommunity.desktop
+
+[Added Associations]
+image/jpeg=display-im6.q16.desktop;org.gnome.eog.desktop;
